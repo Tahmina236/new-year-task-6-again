@@ -78,3 +78,61 @@ margin-bottom: 80px;
 }
 /* 65%-section-container style ends here */
  
+/* Midnight party section starts here */
+.midnight-party-container {
+    width: 1320px;
+height: 600px;
+/* border: 2px solid red; */
+border-radius: 16px;
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+background-color: rgba(0,0,0,0.5);
+background-image: url(../images/Vectorrr.png);
+background-blend-mode: overlay;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.leftside-content {
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center ;
+}
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+}
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding-left: 80px;
+}
+.rightside-content {
+    width: 50%;
+    /* border: 2px solid rgb(231, 251, 9); */
+    display: flex;
+justify-content: center;
+ align-items: center ;
+}
+.rightside-content img {
+    width: 349.16px;
+height: 464.65px;
+}
+
+.midnight-button {
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+margin-top: 40px;
+margin-right: 350px;
+}
