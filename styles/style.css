@@ -11,9 +11,9 @@ body {
 /* banner section styles starts */
 .banner-container {
    max-width: 1320px;
+   /* border: 2px solid red; */
    margin: 0 auto;
    margin-top: 28px;
-   /* border: 2px solid red; */
    border-radius: 16px;
    min-height: 600px;
    background-color: rgba(0,0,0,0.4);
@@ -42,3 +42,39 @@ body {
     color: white;
 }
 /* banner section styles ends */
+/* 65%-section-container style starts here */
+.second-section-container {
+ max-width: 802px;
+ min-height: 806px;
+ /* border: 2px solid red; */
+ margin: 0 auto;
+ margin-top: 60px;
+ 
+}
+.second-section-content {
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center ;
+}
+.second-section-content h1 {
+    color: rgb(255, 0, 0);
+font-size: 88px;
+font-weight: 700;
+}
+.second-section-content p {
+    color: rgb(255, 0, 0);
+font-size: 20px;
+font-weight: 500;
+margin-top: 70px;
+margin-bottom: 16px;
+
+}
+.second-section-content h3 {
+    color: rgb(7, 2, 17);
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 80px;
+}
+/* 65%-section-container style ends here */
+ 
