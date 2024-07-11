@@ -279,3 +279,52 @@ top: 77%;
         height: 206.84px;
  }
   /* Holiday sale ends here */ 
+
+  /* portfolio styles here */
+  .portfolio-container{
+    width: 1320px;
+height: 1163px;
+/* border: 2px solid red; */
+margin: 0 auto;
+margin-top: 120px;
+  }
+  .portfolio-text-content{
+
+  }
+  .portfolio-text-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .portfolio-text-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    margin-top: 22px;
+  }
+  .portfolio-items {
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px; */
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+
+
+  }
+  .item{
+    width: 424px;
+height: 450px;
+  }
+  /* portfolio ends here */
