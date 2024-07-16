@@ -320,11 +320,59 @@ gap: 20px; */
 display:grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
-
-
   }
   .item{
     width: 424px;
 height: 450px;
   }
   /* portfolio ends here */
+  /* footer starts here */
+  .footer-container{
+    width: 1320px;
+height: 609px;
+border: 2px solid red;
+background: rgb(7, 2, 17);
+margin: 0 auto;
+
+  }
+  .contact{
+    display: flex;
+    color: white;
+    font-size: 20px;
+  }
+ 
+  .footer-first-content{
+display: flex;
+color: white;
+font-size: 20px;
+/* border: 2px solid gold; */
+width: 90%;
+margin: 0 auto;
+justify-content: space-between;
+margin-top: 100px;
+margin-bottom: 100px;
+
+  }
+  .hr{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer-end-text{
+    /* border: 2px solid gold; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 100px;
+  }
+  
+  /* footer ends here */
